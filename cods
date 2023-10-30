@@ -1,0 +1,58 @@
+// // Parol uzunligi
+// if (parol.length < 8 || parol.length > 20) {
+//     // Harf, raqam, va boshqa belgilar
+//     if (!/^[a-zA-Z0-9!@#$%^&*()_+~`{}[\]:;<>,.?/\\-]+$/.test(parol)) {
+//         if (ogirishlar.includes(parol.toLowerCase())) {
+//             // Boshqa kodlar bilan solishtirish.
+//             const ogirishlar = ["password", "123456", "admin", "user"];
+//             // Katta va kichik harfni farq qilish
+//             if (!/[a-z]/.test(parol) || !/[A-Z]/.test(parol)) {
+ 
+// var elINP =document.querySelector('.inp')
+
+// function parolniTekshir() {
+//     if ( elINP.value ==  elINP.match(/[A-Z]/g)  && elINP.length >= 8 && elINP.value == elINP.match(/[0-9]/g  && elINP) ) {
+//         elINP.style.border = '3px solid blue'
+//         elINP.style.boxShadow = ' rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;'
+//     }
+// }
+
+// Parolni tekshirish
+ 
+
+
+// var input = document.querySelector('.inp')
+// var btn = document.querySelector('.btn')
+// var answer = document.querySelector('.ans')
+
+// function  fn() {
+//     if (input.matches(/[A-Z]/g)?.length >= 8 && input.matches(/[0-9.,]/g))  {
+//         input.value = TCT 
+//         TCT.style.boxShadow = "15px 10px 25px 22px   rgba(8, 30, 155, 0.815)"
+//         answer.textContent = 'strong password'
+//     } else {
+//         answer.textContent = 'please write a strong password! It helps your security'
+//     }
+// }
+
+
+// var input = document.querySelector('.inp');
+// var btn = document.querySelector('.btn');
+// var answer = document.querySelector('.ans');
+
+// function fn() {
+//     if (input.value.match(/[A-Z]/g) && input.length >= 8 && input.value.match(/[0-9.,]/g)) {
+//         input.style.border = '3px solid   blue'
+//         input.style.boxShadow = " 0px 6px  25px 10px rgba(48, 76, 235, 0.651)";
+//         answer.textContent = 'strong password';
+//         answer.style.color = 'blue'
+//         console.log('strong password');
+//     } else {
+//         answer.style.color = 'red'
+//         console.log(' not  strong password');
+//         answer.textContent = 'please write a strong password! It helps your security';
+//     }
+// }
+
+// btn.addEventListener('click', fn);
+
